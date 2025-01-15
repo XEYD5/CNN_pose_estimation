@@ -49,7 +49,8 @@ The CNN has been tested extensively, showing robustness to various distortions.
 
  lvl   lvl   lvl    er
  
- dark  blur  qual  rslt 
+ dark  blur  qual  rslt
+ 
   10    10    10     1  
   90    10    10    59  
   10    90    10    16  
