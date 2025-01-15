@@ -1,0 +1,2 @@
+source;share/dnn_pkg/environment/ament_prefix_path.sh
+source;share/dnn_pkg/environment/path.sh

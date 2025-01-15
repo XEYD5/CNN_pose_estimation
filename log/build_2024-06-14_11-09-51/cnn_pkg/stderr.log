@@ -1,0 +1,13 @@
+/usr/bin/ld: CMakeFiles/cnn_exe.dir/src/cnn_code.cpp.o: in function `tsl::core::RefCounted::~RefCounted()':
+cnn_code.cpp:(.text._ZN3tsl4core10RefCountedD2Ev[_ZN3tsl4core10RefCountedD5Ev]+0xf5): undefined reference to `tsl::internal::LogMessageFatal::LogMessageFatal(char const*, int)'
+/usr/bin/ld: cnn_code.cpp:(.text._ZN3tsl4core10RefCountedD2Ev[_ZN3tsl4core10RefCountedD5Ev]+0x11d): undefined reference to `tsl::internal::LogMessageFatal::~LogMessageFatal()'
+/usr/bin/ld: CMakeFiles/cnn_exe.dir/src/cnn_code.cpp.o: in function `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* tsl::internal::MakeCheckOpString<long, int>(long const&, int const&, char const*)':
+cnn_code.cpp:(.text._ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc[_ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc]+0x37): undefined reference to `tsl::internal::CheckOpMessageBuilder::CheckOpMessageBuilder(char const*)'
+/usr/bin/ld: cnn_code.cpp:(.text._ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc[_ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc]+0x61): undefined reference to `tsl::internal::CheckOpMessageBuilder::ForVar2()'
+/usr/bin/ld: cnn_code.cpp:(.text._ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc[_ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc]+0x7f): undefined reference to `tsl::internal::CheckOpMessageBuilder::NewString[abi:cxx11]()'
+/usr/bin/ld: cnn_code.cpp:(.text._ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc[_ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc]+0x8f): undefined reference to `tsl::internal::CheckOpMessageBuilder::~CheckOpMessageBuilder()'
+/usr/bin/ld: cnn_code.cpp:(.text._ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc[_ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc]+0xb6): undefined reference to `tsl::internal::CheckOpMessageBuilder::~CheckOpMessageBuilder()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/cnn_exe.dir/build.make:217: cnn_exe] Error 1
+make[1]: *** [CMakeFiles/Makefile2:248: CMakeFiles/cnn_exe.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

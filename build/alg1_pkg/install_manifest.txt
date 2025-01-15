@@ -1,0 +1,16 @@
+/home/jorge/capture_ws/install/alg1_pkg/lib/alg1_pkg/alg1_exe
+/home/jorge/capture_ws/install/alg1_pkg/share/ament_index/resource_index/package_run_dependencies/alg1_pkg
+/home/jorge/capture_ws/install/alg1_pkg/share/ament_index/resource_index/parent_prefix_path/alg1_pkg
+/home/jorge/capture_ws/install/alg1_pkg/share/alg1_pkg/environment/ament_prefix_path.sh
+/home/jorge/capture_ws/install/alg1_pkg/share/alg1_pkg/environment/ament_prefix_path.dsv
+/home/jorge/capture_ws/install/alg1_pkg/share/alg1_pkg/environment/path.sh
+/home/jorge/capture_ws/install/alg1_pkg/share/alg1_pkg/environment/path.dsv
+/home/jorge/capture_ws/install/alg1_pkg/share/alg1_pkg/local_setup.bash
+/home/jorge/capture_ws/install/alg1_pkg/share/alg1_pkg/local_setup.sh
+/home/jorge/capture_ws/install/alg1_pkg/share/alg1_pkg/local_setup.zsh
+/home/jorge/capture_ws/install/alg1_pkg/share/alg1_pkg/local_setup.dsv
+/home/jorge/capture_ws/install/alg1_pkg/share/alg1_pkg/package.dsv
+/home/jorge/capture_ws/install/alg1_pkg/share/ament_index/resource_index/packages/alg1_pkg
+/home/jorge/capture_ws/install/alg1_pkg/share/alg1_pkg/cmake/alg1_pkgConfig.cmake
+/home/jorge/capture_ws/install/alg1_pkg/share/alg1_pkg/cmake/alg1_pkgConfig-version.cmake
+/home/jorge/capture_ws/install/alg1_pkg/share/alg1_pkg/package.xml

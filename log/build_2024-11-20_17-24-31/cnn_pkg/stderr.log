@@ -1,0 +1,11 @@
+[01m[K/home/jorge/capture_ws/src/cnn_pkg/src/get_aruco_code.cpp:[m[K In member function ‘[01m[Kvoid PrintArucoOutputNode::arucoOutputCallback(ros2_aruco_interfaces::msg::ArucoMarkers_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/jorge/capture_ws/src/cnn_pkg/src/get_aruco_code.cpp:79:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   79 |                 class_yaw = "F"
+      |                                [01;31m[K^[m[K
+      |                                [32m[K;[m[K
+   80 |             [32m[K}[m[K
+      |             [32m[K~[m[K                   
+make[2]: *** [CMakeFiles/get_aruco_exe.dir/build.make:63: CMakeFiles/get_aruco_exe.dir/src/get_aruco_code.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/get_aruco_exe.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

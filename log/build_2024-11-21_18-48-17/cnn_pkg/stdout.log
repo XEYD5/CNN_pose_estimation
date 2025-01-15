@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target get_aruco_exe[0m
+[35m[1mScanning dependencies of target send_frames_exe[0m
+[ 30%] Built target get_frames2_exe
+[ 50%] Built target sort_dataset_exe
+[ 60%] Built target get_frames_exe
+[ 70%] [32mBuilding CXX object CMakeFiles/get_aruco_exe.dir/src/get_aruco_code.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/send_frames_exe.dir/src/send_frames_code.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable send_frames_exe[0m
+[ 90%] Built target send_frames_exe

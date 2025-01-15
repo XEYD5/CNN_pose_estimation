@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target sort_dataset_exe[0m
+[ 20%] Built target get_aruco_exe
+[ 40%] Built target send_frames_exe
+[ 60%] Built target get_frames_exe
+[ 80%] Built target get_frames2_exe
+[ 90%] [32mBuilding CXX object CMakeFiles/sort_dataset_exe.dir/src/sort_dataset_code.cpp.o[0m
+[01m[K/home/jorge/capture_ws/src/cnn_pkg/src/sort_dataset_code.cpp:[m[K In function ‘[01m[Kstd::string getFolder(std::string&)[m[K’:
+[01m[K/home/jorge/capture_ws/src/cnn_pkg/src/sort_dataset_code.cpp:35:21:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K(& class_label)->std::__cxx11::basic_string<char>::operator=(((const char*)"N"))[m[K’ from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kbool[m[K’
+   35 |     if ([01;31m[Kclass_label = "N"[m[K) {
+      |         [01;31m[K~~~~~~~~~~~~^~~~~[m[K
+      |                     [01;31m[K|[m[K
+      |                     [01;31m[Kstd::__cxx11::basic_string<char>[m[K
+make[2]: *** [CMakeFiles/sort_dataset_exe.dir/build.make:63: CMakeFiles/sort_dataset_exe.dir/src/sort_dataset_code.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/sort_dataset_exe.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

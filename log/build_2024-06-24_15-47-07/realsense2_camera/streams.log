@@ -1,0 +1,115 @@
+[0.028s] Invoking command in '/home/jorge/capture_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/home/jorge/capture_ws/install/realsense2_camera_msgs/lib:/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib:/home/jorge/capture_ws/install/realsense2_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jorge/capture_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/jorge/capture_ws/install/ros2_aruco/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib/python3.8/dist-packages/tensorflow/models/research /usr/bin/cmake /home/jorge/capture_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/jorge/capture_ws/install/realsense2_camera
+[0.126s] -- The C compiler identification is GNU 9.4.0
+[0.214s] -- The CXX compiler identification is GNU 9.4.0
+[0.224s] -- Check for working C compiler: /usr/bin/cc
+[0.336s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.338s] -- Detecting C compiler ABI info
+[0.441s] -- Detecting C compiler ABI info - done
+[0.458s] -- Detecting C compile features
+[0.459s] -- Detecting C compile features - done
+[0.462s] -- Check for working CXX compiler: /usr/bin/c++
+[0.564s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.566s] -- Detecting CXX compiler ABI info
+[0.710s] -- Detecting CXX compiler ABI info - done
+[0.737s] -- Detecting CXX compile features
+[0.739s] -- Detecting CXX compile features - done
+[0.740s] -- Create Release Build.
+[0.743s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.791s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.791s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.231s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[1.295s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.309s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.473s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.541s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.769s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.837s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[2.294s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[2.435s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.439s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.441s] -- Looking for pthread.h
+[2.827s] -- Looking for pthread.h - found
+[2.827s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.181s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.181s] -- Looking for pthread_create in pthreads
+[3.514s] -- Looking for pthread_create in pthreads - not found
+[3.514s] -- Looking for pthread_create in pthread
+[3.826s] -- Looking for pthread_create in pthread - found
+[3.828s] -- Found Threads: TRUE  
+[4.441s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[4.721s] -- Found realsense2_camera_msgs: 4.54.1 (/home/jorge/capture_ws/install/realsense2_camera_msgs/share/realsense2_camera_msgs/cmake)
+[4.962s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[5.387s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[6.500s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[6.740s] -- Build for ROS2 Foxy
+[7.023s] -- Configuring done
+[7.199s] -- Generating done
+[7.218s] -- Build files have been written to: /home/jorge/capture_ws/build/realsense2_camera
+[7.249s] Invoked command in '/home/jorge/capture_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/home/jorge/capture_ws/install/realsense2_camera_msgs/lib:/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib:/home/jorge/capture_ws/install/realsense2_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jorge/capture_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/jorge/capture_ws/install/ros2_aruco/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib/python3.8/dist-packages/tensorflow/models/research /usr/bin/cmake /home/jorge/capture_ws/src/realsense-ros/realsense2_camera -DCMAKE_INSTALL_PREFIX=/home/jorge/capture_ws/install/realsense2_camera
+[7.256s] Invoking command in '/home/jorge/capture_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/home/jorge/capture_ws/install/realsense2_camera_msgs/lib:/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib:/home/jorge/capture_ws/install/realsense2_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jorge/capture_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/jorge/capture_ws/install/ros2_aruco/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib/python3.8/dist-packages/tensorflow/models/research /usr/bin/cmake --build /home/jorge/capture_ws/build/realsense2_camera -- -j8 -l8
+[7.385s] [35m[1mScanning dependencies of target realsense2_camera_node[0m
+[7.389s] [35m[1mScanning dependencies of target realsense2_camera[0m
+[7.545s] [  6%] [32mBuilding CXX object CMakeFiles/realsense2_camera_node.dir/rclcpp_components/node_main_realsense2_camera_node.cpp.o[0m
+[8.097s] [ 12%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/realsense_node_factory.cpp.o[0m
+[8.149s] [ 18%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/base_realsense_node.cpp.o[0m
+[8.149s] [ 25%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/parameters.cpp.o[0m
+[8.153s] [ 31%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_sensor.cpp.o[0m
+[8.153s] [ 37%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/rs_node_setup.cpp.o[0m
+[8.182s] [ 43%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_utils.cpp.o[0m
+[8.217s] [ 50%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/dynamic_params.cpp.o[0m
+[18.624s] [ 56%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/sensor_params.cpp.o[0m
+[19.052s] [ 62%] [32m[1mLinking CXX executable realsense2_camera_node[0m
+[19.820s] [ 62%] Built target realsense2_camera_node
+[19.873s] [ 68%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/named_filter.cpp.o[0m
+[26.977s] [ 75%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/profile_manager.cpp.o[0m
+[28.755s] [ 81%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/image_publisher.cpp.o[0m
+[28.906s] [ 87%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/tfs.cpp.o[0m
+[31.331s] [ 93%] [32mBuilding CXX object CMakeFiles/realsense2_camera.dir/src/ros_param_backend_foxy.cpp.o[0m
+[40.847s] [100%] [32m[1mLinking CXX shared library librealsense2_camera.so[0m
+[41.666s] [100%] Built target realsense2_camera
+[41.685s] Invoked command in '/home/jorge/capture_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/home/jorge/capture_ws/install/realsense2_camera_msgs/lib:/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib:/home/jorge/capture_ws/install/realsense2_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jorge/capture_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/jorge/capture_ws/install/ros2_aruco/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib/python3.8/dist-packages/tensorflow/models/research /usr/bin/cmake --build /home/jorge/capture_ws/build/realsense2_camera -- -j8 -l8
+[41.760s] Invoking command in '/home/jorge/capture_ws/build/realsense2_camera': CMAKE_PREFIX_PATH=/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/home/jorge/capture_ws/install/realsense2_camera_msgs/lib:/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib:/home/jorge/capture_ws/install/realsense2_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jorge/capture_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/jorge/capture_ws/install/ros2_aruco/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib/python3.8/dist-packages/tensorflow/models/research /usr/bin/cmake --install /home/jorge/capture_ws/build/realsense2_camera
+[41.771s] -- Install configuration: "Release"
+[41.771s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node
+[41.772s] -- Set runtime path of "/home/jorge/capture_ws/install/realsense2_camera/lib/realsense2_camera/realsense2_camera_node" to ""
+[41.772s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/lib/librealsense2_camera.so
+[41.775s] -- Set runtime path of "/home/jorge/capture_ws/install/realsense2_camera/lib/librealsense2_camera.so" to ""
+[41.775s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/include
+[41.776s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/include/profile_manager.h
+[41.776s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/include/sensor_params.h
+[41.776s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/include/ros_param_backend.h
+[41.776s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/include/base_realsense_node.h
+[41.776s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/include/image_publisher.h
+[41.776s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/include/ros_utils.h
+[41.776s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/include/named_filter.h
+[41.776s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/include/ros_sensor.h
+[41.777s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/include/realsense_node_factory.h
+[41.777s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/include/dynamic_params.h
+[41.777s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/include/constants.h
+[41.777s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/launch
+[41.777s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/launch/default.rviz
+[41.777s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_intra_process_demo_launch.py
+[41.778s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_multi_camera_launch.py
+[41.778s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/launch/rs_launch.py
+[41.778s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.sh
+[41.779s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/environment/library_path.dsv
+[41.779s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/ament_index/resource_index/package_run_dependencies/realsense2_camera
+[41.780s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/ament_index/resource_index/parent_prefix_path/realsense2_camera
+[41.780s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.sh
+[41.780s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/environment/ament_prefix_path.dsv
+[41.780s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/environment/path.sh
+[41.781s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/environment/path.dsv
+[41.781s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/local_setup.bash
+[41.781s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/local_setup.sh
+[41.782s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/local_setup.zsh
+[41.782s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/local_setup.dsv
+[41.782s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/package.dsv
+[41.783s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/ament_index/resource_index/packages/realsense2_camera
+[41.783s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/ament_index/resource_index/rclcpp_components/realsense2_camera
+[41.783s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.784s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[41.784s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.784s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig.cmake
+[41.785s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/cmake/realsense2_cameraConfig-version.cmake
+[41.785s] -- Installing: /home/jorge/capture_ws/install/realsense2_camera/share/realsense2_camera/package.xml
+[41.788s] Invoked command in '/home/jorge/capture_ws/build/realsense2_camera' returned '0': CMAKE_PREFIX_PATH=/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy LD_LIBRARY_PATH=/home/jorge/capture_ws/install/realsense2_camera_msgs/lib:/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib:/home/jorge/capture_ws/install/realsense2_camera/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/jorge/capture_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/jorge/capture_ws/install/ros2_aruco/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib/python3.8/dist-packages/tensorflow/models/research /usr/bin/cmake --install /home/jorge/capture_ws/build/realsense2_camera

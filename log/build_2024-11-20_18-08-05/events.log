@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000475] (-) JobUnselected: {'identifier': 'alg1_pkg'}
+[0.000643] (-) JobUnselected: {'identifier': 'dnn_pkg'}
+[0.000668] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.000688] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.000705] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.000724] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.000742] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.000763] (cnn_pkg) JobQueued: {'identifier': 'cnn_pkg', 'dependencies': OrderedDict([('ros2_aruco_interfaces', '/home/jorge/capture_ws/install/ros2_aruco_interfaces')])}
+[0.000908] (cnn_pkg) JobStarted: {'identifier': 'cnn_pkg'}
+[0.014106] (cnn_pkg) JobProgress: {'identifier': 'cnn_pkg', 'progress': 'cmake'}
+[0.015863] (cnn_pkg) JobProgress: {'identifier': 'cnn_pkg', 'progress': 'build'}
+[0.016168] (cnn_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jorge/capture_ws/build/cnn_pkg', '--', '-j8', '-l8'], 'cwd': '/home/jorge/capture_ws/build/cnn_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jorge'), ('LC_TIME', 'pt_PT.UTF-8'), ('SSH_AGENT_PID', '1128'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib:/home/jorge/capture_ws/install/realsense2_camera/lib:/home/jorge/capture_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jorge'), ('OLDPWD', '/home/jorge'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('MANAGERPID', '1000'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jorge/capture_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jorge'), ('JOURNAL_STREAM', '8:40324'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jorge'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jorge/.local/bin:/home/jorge/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/capturePC:@/tmp/.ICE-unix/1166,unix/capturePC:/tmp/.ICE-unix/1166'), ('INVOCATION_ID', '191dbfac20f64058af8c7e8be881d1f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/61386acf_68f9_4d90_b65d_309005e0decd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/ros2_aruco:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jorge/capture_ws/build/cnn_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/jorge/capture_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/jorge/capture_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib/python3.8/dist-packages/tensorflow/models/research'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy')]), 'shell': False}
+[0.078961] (cnn_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target send_frames_exe\x1b[0m\n'}
+[0.099387] (-) TimerEvent: {}
+[0.106459] (cnn_pkg) StdoutLine: {'line': b'[ 20%] Built target get_frames_exe\n'}
+[0.106819] (cnn_pkg) StdoutLine: {'line': b'[ 40%] Built target get_aruco_exe\n'}
+[0.108221] (cnn_pkg) StdoutLine: {'line': b'[ 60%] Built target get_frames2_exe\n'}
+[0.119116] (cnn_pkg) StdoutLine: {'line': b'[ 80%] Built target sort_dataset_exe\n'}
+[0.129034] (cnn_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/send_frames_exe.dir/src/send_frames_code.cpp.o\x1b[0m\n'}
+[0.199488] (-) TimerEvent: {}
+[0.299808] (-) TimerEvent: {}
+[0.400174] (-) TimerEvent: {}
+[0.500492] (-) TimerEvent: {}
+[0.600821] (-) TimerEvent: {}
+[0.701130] (-) TimerEvent: {}
+[0.801442] (-) TimerEvent: {}
+[0.901778] (-) TimerEvent: {}
+[1.002115] (-) TimerEvent: {}
+[1.102443] (-) TimerEvent: {}
+[1.202818] (-) TimerEvent: {}
+[1.303158] (-) TimerEvent: {}
+[1.403505] (-) TimerEvent: {}
+[1.503850] (-) TimerEvent: {}
+[1.604208] (-) TimerEvent: {}
+[1.704561] (-) TimerEvent: {}
+[1.804925] (-) TimerEvent: {}
+[1.905370] (-) TimerEvent: {}
+[2.005726] (-) TimerEvent: {}
+[2.106052] (-) TimerEvent: {}
+[2.206394] (-) TimerEvent: {}
+[2.306709] (-) TimerEvent: {}
+[2.407078] (-) TimerEvent: {}
+[2.507407] (-) TimerEvent: {}
+[2.607735] (-) TimerEvent: {}
+[2.708060] (-) TimerEvent: {}
+[2.818244] (-) TimerEvent: {}
+[2.918618] (-) TimerEvent: {}
+[3.018985] (-) TimerEvent: {}
+[3.119315] (-) TimerEvent: {}
+[3.219653] (-) TimerEvent: {}
+[3.319979] (-) TimerEvent: {}
+[3.420331] (-) TimerEvent: {}
+[3.520695] (-) TimerEvent: {}
+[3.621068] (-) TimerEvent: {}
+[3.721423] (-) TimerEvent: {}
+[3.821782] (-) TimerEvent: {}
+[3.922174] (-) TimerEvent: {}
+[4.022525] (-) TimerEvent: {}
+[4.122879] (-) TimerEvent: {}
+[4.223258] (-) TimerEvent: {}
+[4.323587] (-) TimerEvent: {}
+[4.423963] (-) TimerEvent: {}
+[4.524336] (-) TimerEvent: {}
+[4.624675] (-) TimerEvent: {}
+[4.725025] (-) TimerEvent: {}
+[4.825356] (-) TimerEvent: {}
+[4.925665] (-) TimerEvent: {}
+[5.026025] (-) TimerEvent: {}
+[5.126467] (-) TimerEvent: {}
+[5.226806] (-) TimerEvent: {}
+[5.327242] (-) TimerEvent: {}
+[5.427661] (-) TimerEvent: {}
+[5.527998] (-) TimerEvent: {}
+[5.628316] (-) TimerEvent: {}
+[5.728739] (-) TimerEvent: {}
+[5.829087] (-) TimerEvent: {}
+[5.929402] (-) TimerEvent: {}
+[6.029771] (-) TimerEvent: {}
+[6.060526] (cnn_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable send_frames_exe\x1b[0m\n'}
+[6.129903] (-) TimerEvent: {}
+[6.230219] (-) TimerEvent: {}
+[6.330575] (-) TimerEvent: {}
+[6.430912] (-) TimerEvent: {}
+[6.531294] (-) TimerEvent: {}
+[6.631608] (-) TimerEvent: {}
+[6.692661] (cnn_pkg) StdoutLine: {'line': b'[100%] Built target send_frames_exe\n'}
+[6.709855] (cnn_pkg) CommandEnded: {'returncode': 0}
+[6.731802] (-) TimerEvent: {}
+[6.757357] (cnn_pkg) JobProgress: {'identifier': 'cnn_pkg', 'progress': 'install'}
+[6.773058] (cnn_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jorge/capture_ws/build/cnn_pkg'], 'cwd': '/home/jorge/capture_ws/build/cnn_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jorge'), ('LC_TIME', 'pt_PT.UTF-8'), ('SSH_AGENT_PID', '1128'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib:/home/jorge/capture_ws/install/realsense2_camera/lib:/home/jorge/capture_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jorge'), ('OLDPWD', '/home/jorge'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('MANAGERPID', '1000'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jorge/capture_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jorge'), ('JOURNAL_STREAM', '8:40324'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jorge'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jorge/.local/bin:/home/jorge/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/capturePC:@/tmp/.ICE-unix/1166,unix/capturePC:/tmp/.ICE-unix/1166'), ('INVOCATION_ID', '191dbfac20f64058af8c7e8be881d1f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/61386acf_68f9_4d90_b65d_309005e0decd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/ros2_aruco:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jorge/capture_ws/build/cnn_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/jorge/capture_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/jorge/capture_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib/python3.8/dist-packages/tensorflow/models/research'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy')]), 'shell': False}
+[6.785181] (cnn_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.785682] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/get_frames_exe\n'}
+[6.786388] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/get_frames2_exe\n'}
+[6.787194] (cnn_pkg) StdoutLine: {'line': b'-- Installing: /home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/send_frames_exe\n'}
+[6.789447] (cnn_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/send_frames_exe" to ""\n'}
+[6.789868] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/get_aruco_exe\n'}
+[6.790626] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/sort_dataset_exe\n'}
+[6.791082] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/ament_index/resource_index/package_run_dependencies/cnn_pkg\n'}
+[6.791319] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/ament_index/resource_index/parent_prefix_path/cnn_pkg\n'}
+[6.791527] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/environment/ament_prefix_path.sh\n'}
+[6.791681] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/environment/ament_prefix_path.dsv\n'}
+[6.791788] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/environment/path.sh\n'}
+[6.791928] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/environment/path.dsv\n'}
+[6.792032] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/local_setup.bash\n'}
+[6.792113] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/local_setup.sh\n'}
+[6.792192] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/local_setup.zsh\n'}
+[6.792271] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/local_setup.dsv\n'}
+[6.792395] (cnn_pkg) StdoutLine: {'line': b'-- Installing: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/package.dsv\n'}
+[6.792479] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/ament_index/resource_index/packages/cnn_pkg\n'}
+[6.792608] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/cmake/cnn_pkgConfig.cmake\n'}
+[6.792685] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/cmake/cnn_pkgConfig-version.cmake\n'}
+[6.792769] (cnn_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/package.xml\n'}
+[6.795145] (cnn_pkg) CommandEnded: {'returncode': 0}
+[6.831965] (-) TimerEvent: {}
+[6.861059] (cnn_pkg) JobEnded: {'identifier': 'cnn_pkg', 'rc': 0}
+[6.861966] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+[01m[K/home/jorge/capture_ws/src/cnn_pkg/src/get_frames_code2.cpp:[m[K In constructor ‘[01m[KCameraSaverNode::CameraSaverNode()[m[K’:
+[01m[K/home/jorge/capture_ws/src/cnn_pkg/src/get_frames_code2.cpp:56:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KCameraSaverNode::frame_count_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   56 |     int [01;35m[Kframe_count_[m[K;
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/jorge/capture_ws/src/cnn_pkg/src/get_frames_code2.cpp:53:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kcv::VideoCapture CameraSaverNode::cap_[m[K’ [[01;35m[K-Wreorder[m[K]
+   53 |     cv::VideoCapture [01;35m[Kcap_[m[K;
+      |                      [01;35m[K^~~~[m[K
+[01m[K/home/jorge/capture_ws/src/cnn_pkg/src/get_frames_code2.cpp:11:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   11 |     [01;35m[KCameraSaverNode[m[K()
+      |     [01;35m[K^~~~~~~~~~~~~~~[m[K

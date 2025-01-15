@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <!-- Info -->
+  <name>alg1_pkg</name>
+  <version>1.0.0</version> <!-- Update with the appropriate version number -->
+  <description>Your package description</description>
+  <maintainer email="your.email@example.com">Your Name</maintainer>
+  <license>TODO: Update with the correct license</license> <!-- Update with the correct license -->
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Build dependencies -->
+  <build_depend>rclcpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>librealsense2</build_depend>
+
+  <!-- Run dependencies -->
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>librealsense2</exec_depend>
+
+  <!-- Exported packages -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,42 @@
+[0.020s] Invoking command in '/home/jorge/capture_ws/build/cnn_pkg': CMAKE_PREFIX_PATH=/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy /usr/bin/cmake --build /home/jorge/capture_ws/build/cnn_pkg -- -j8 -l8
+[0.080s] [35m[1mScanning dependencies of target send_frames_exe[0m
+[0.080s] [35m[1mScanning dependencies of target get_aruco_exe[0m
+[0.112s] [ 20%] Built target get_frames_exe
+[0.120s] [ 40%] Built target get_frames2_exe
+[0.125s] [ 60%] Built target sort_dataset_exe
+[0.140s] [ 70%] [32mBuilding CXX object CMakeFiles/send_frames_exe.dir/src/send_frames_code.cpp.o[0m
+[0.143s] [ 80%] [32mBuilding CXX object CMakeFiles/get_aruco_exe.dir/src/get_aruco_code.cpp.o[0m
+[3.881s] [01m[K/home/jorge/capture_ws/src/cnn_pkg/src/send_frames_code.cpp:[m[K In member function ‘[01m[Kvoid SendFramesNode::publishImage()[m[K’:
+[3.881s] [01m[K/home/jorge/capture_ws/src/cnn_pkg/src/send_frames_code.cpp:49:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[3.882s]    49 |         if ([01;35m[Kcount < files.size()[m[K) {
+[3.882s]       |             [01;35m[K~~~~~~^~~~~~~~~~~~~~[m[K
+[6.781s] [ 90%] [32m[1mLinking CXX executable send_frames_exe[0m
+[7.436s] [ 90%] Built target send_frames_exe
+[8.041s] [100%] [32m[1mLinking CXX executable get_aruco_exe[0m
+[8.473s] [100%] Built target get_aruco_exe
+[8.491s] Invoked command in '/home/jorge/capture_ws/build/cnn_pkg' returned '0': CMAKE_PREFIX_PATH=/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy /usr/bin/cmake --build /home/jorge/capture_ws/build/cnn_pkg -- -j8 -l8
+[8.580s] Invoking command in '/home/jorge/capture_ws/build/cnn_pkg': CMAKE_PREFIX_PATH=/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy /usr/bin/cmake --install /home/jorge/capture_ws/build/cnn_pkg
+[8.593s] -- Install configuration: ""
+[8.593s] -- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/get_frames_exe
+[8.594s] -- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/get_frames2_exe
+[8.595s] -- Installing: /home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/send_frames_exe
+[8.597s] -- Set runtime path of "/home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/send_frames_exe" to ""
+[8.597s] -- Installing: /home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/get_aruco_exe
+[8.600s] -- Set runtime path of "/home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/get_aruco_exe" to ""
+[8.601s] -- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/sort_dataset_exe
+[8.601s] -- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/ament_index/resource_index/package_run_dependencies/cnn_pkg
+[8.601s] -- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/ament_index/resource_index/parent_prefix_path/cnn_pkg
+[8.602s] -- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/environment/ament_prefix_path.sh
+[8.602s] -- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/environment/ament_prefix_path.dsv
+[8.602s] -- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/environment/path.sh
+[8.602s] -- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/environment/path.dsv
+[8.602s] -- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/local_setup.bash
+[8.603s] -- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/local_setup.sh
+[8.603s] -- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/local_setup.zsh
+[8.603s] -- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/local_setup.dsv
+[8.603s] -- Installing: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/package.dsv
+[8.603s] -- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/ament_index/resource_index/packages/cnn_pkg
+[8.603s] -- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/cmake/cnn_pkgConfig.cmake
+[8.604s] -- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/cmake/cnn_pkgConfig-version.cmake
+[8.604s] -- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/package.xml
+[8.606s] Invoked command in '/home/jorge/capture_ws/build/cnn_pkg' returned '0': CMAKE_PREFIX_PATH=/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy /usr/bin/cmake --install /home/jorge/capture_ws/build/cnn_pkg

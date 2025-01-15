@@ -1,0 +1,1 @@
+rclcpp;sensor_msgs;cv_bridge;librealsense2;ros2_aruco_interfaces

@@ -1,0 +1,12 @@
+[0.019s] Invoking command in '/home/jorge/capture_ws/build/cnn_pkg': CMAKE_PREFIX_PATH=/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy /usr/bin/cmake --build /home/jorge/capture_ws/build/cnn_pkg -- -j8 -l8
+[0.101s] [ 40%] Built target send_frames_exe
+[0.101s] [ 40%] Built target sort_dataset_exe
+[0.107s] [ 60%] Built target get_aruco_exe
+[0.117s] [ 80%] Built target get_frames_exe
+[0.135s] [ 90%] [32m[1mLinking CXX executable cnn_exe[0m
+[0.219s] /usr/bin/ld: cannot find -ltensorflow
+[0.219s] collect2: error: ld returned 1 exit status
+[0.221s] make[2]: *** [CMakeFiles/cnn_exe.dir/build.make:217: cnn_exe] Error 1
+[0.222s] make[1]: *** [CMakeFiles/Makefile2:248: CMakeFiles/cnn_exe.dir/all] Error 2
+[0.222s] make: *** [Makefile:141: all] Error 2
+[0.224s] Invoked command in '/home/jorge/capture_ws/build/cnn_pkg' returned '2': CMAKE_PREFIX_PATH=/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy /usr/bin/cmake --build /home/jorge/capture_ws/build/cnn_pkg -- -j8 -l8

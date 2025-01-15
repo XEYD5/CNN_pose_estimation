@@ -1,0 +1,9 @@
+[01m[K/home/jorge/capture_ws/src/cnn_pkg/src/sort_dataset_code.cpp:[m[K In function ‘[01m[Kstd::string getFolder(std::string&)[m[K’:
+[01m[K/home/jorge/capture_ws/src/cnn_pkg/src/sort_dataset_code.cpp:35:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[Kclass_label[m[K’
+   35 |     if [01;31m[Kc[m[K[32m[Klass_label[m[K = "N" {
+      |        [01;31m[K^[m[K[32m[K~~~~~~~~~~[m[K
+      |        [32m[K([m[K
+make[2]: *** [CMakeFiles/sort_dataset_exe.dir/build.make:63: CMakeFiles/sort_dataset_exe.dir/src/sort_dataset_code.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/sort_dataset_exe.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

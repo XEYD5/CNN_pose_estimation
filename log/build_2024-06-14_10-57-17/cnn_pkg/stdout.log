@@ -1,0 +1,5 @@
+[ 20%] Built target send_frames_exe
+[ 40%] Built target sort_dataset_exe
+[ 60%] Built target get_aruco_exe
+[ 80%] Built target get_frames_exe
+[ 90%] [32m[1mLinking CXX executable cnn_exe[0m

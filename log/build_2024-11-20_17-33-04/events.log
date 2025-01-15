@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.000145] (-) JobUnselected: {'identifier': 'alg1_pkg'}
+[0.000181] (-) JobUnselected: {'identifier': 'dnn_pkg'}
+[0.000207] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.000229] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.000249] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.000308] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.000349] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.000389] (cnn_pkg) JobQueued: {'identifier': 'cnn_pkg', 'dependencies': OrderedDict([('ros2_aruco_interfaces', '/home/jorge/capture_ws/install/ros2_aruco_interfaces')])}
+[0.000435] (cnn_pkg) JobStarted: {'identifier': 'cnn_pkg'}
+[0.015051] (cnn_pkg) JobProgress: {'identifier': 'cnn_pkg', 'progress': 'cmake'}
+[0.017090] (cnn_pkg) JobProgress: {'identifier': 'cnn_pkg', 'progress': 'build'}
+[0.017143] (cnn_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jorge/capture_ws/build/cnn_pkg', '--', '-j8', '-l8'], 'cwd': '/home/jorge/capture_ws/build/cnn_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jorge'), ('LC_TIME', 'pt_PT.UTF-8'), ('SSH_AGENT_PID', '1128'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib:/home/jorge/capture_ws/install/realsense2_camera/lib:/home/jorge/capture_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jorge'), ('OLDPWD', '/home/jorge'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('MANAGERPID', '1000'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jorge/capture_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jorge'), ('JOURNAL_STREAM', '8:40324'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jorge'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jorge/.local/bin:/home/jorge/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/capturePC:@/tmp/.ICE-unix/1166,unix/capturePC:/tmp/.ICE-unix/1166'), ('INVOCATION_ID', '191dbfac20f64058af8c7e8be881d1f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/61386acf_68f9_4d90_b65d_309005e0decd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.134'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/ros2_aruco:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jorge/capture_ws/build/cnn_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/jorge/capture_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/jorge/capture_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib/python3.8/dist-packages/tensorflow/models/research'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy')]), 'shell': False}
+[0.079386] (cnn_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target get_aruco_exe\x1b[0m\n'}
+[0.086332] (cnn_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sort_dataset_exe\x1b[0m\n'}
+[0.099090] (-) TimerEvent: {}
+[0.107449] (cnn_pkg) StdoutLine: {'line': b'[ 20%] Built target send_frames_exe\n'}
+[0.121117] (cnn_pkg) StdoutLine: {'line': b'[ 60%] Built target get_frames2_exe\n'}
+[0.121361] (cnn_pkg) StdoutLine: {'line': b'[ 60%] Built target get_frames_exe\n'}
+[0.135966] (cnn_pkg) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/get_aruco_exe.dir/src/get_aruco_code.cpp.o\x1b[0m\n'}
+[0.143644] (cnn_pkg) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/sort_dataset_exe.dir/src/sort_dataset_code.cpp.o\x1b[0m\n'}
+[0.199236] (-) TimerEvent: {}
+[0.299541] (-) TimerEvent: {}
+[0.399899] (-) TimerEvent: {}
+[0.500249] (-) TimerEvent: {}
+[0.600592] (-) TimerEvent: {}
+[0.700913] (-) TimerEvent: {}
+[0.801346] (-) TimerEvent: {}
+[0.901744] (-) TimerEvent: {}
+[1.002124] (-) TimerEvent: {}
+[1.102503] (-) TimerEvent: {}
+[1.202901] (-) TimerEvent: {}
+[1.303272] (-) TimerEvent: {}
+[1.403646] (-) TimerEvent: {}
+[1.504019] (-) TimerEvent: {}
+[1.604378] (-) TimerEvent: {}
+[1.752928] (-) TimerEvent: {}
+[1.853302] (-) TimerEvent: {}
+[1.953710] (-) TimerEvent: {}
+[2.054112] (-) TimerEvent: {}
+[2.154488] (-) TimerEvent: {}
+[2.254892] (-) TimerEvent: {}
+[2.355284] (-) TimerEvent: {}
+[2.455676] (-) TimerEvent: {}
+[2.556070] (-) TimerEvent: {}
+[2.656479] (-) TimerEvent: {}
+[2.756852] (-) TimerEvent: {}
+[2.857274] (-) TimerEvent: {}
+[2.957698] (-) TimerEvent: {}
+[3.058098] (-) TimerEvent: {}
+[3.158515] (-) TimerEvent: {}
+[3.258894] (-) TimerEvent: {}
+[3.313921] (cnn_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jorge/capture_ws/src/cnn_pkg/src/sort_dataset_code.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::string getFolder(std::string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.314217] (cnn_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jorge/capture_ws/src/cnn_pkg/src/sort_dataset_code.cpp:35:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kclass_label\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.314394] (cnn_pkg) StderrLine: {'line': b'   35 |     if \x1b[01;31m\x1b[Kc\x1b[m\x1b[K\x1b[32m\x1b[Klass_label\x1b[m\x1b[K = "N" {\n'}
+[3.314537] (cnn_pkg) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.314673] (cnn_pkg) StderrLine: {'line': b'      |        \x1b[32m\x1b[K(\x1b[m\x1b[K\n'}
+[3.358987] (-) TimerEvent: {}
+[3.459374] (-) TimerEvent: {}
+[3.559781] (-) TimerEvent: {}
+[3.660189] (-) TimerEvent: {}
+[3.760604] (-) TimerEvent: {}
+[3.861026] (-) TimerEvent: {}
+[3.961429] (-) TimerEvent: {}
+[4.061819] (-) TimerEvent: {}
+[4.162191] (-) TimerEvent: {}
+[4.262624] (-) TimerEvent: {}
+[4.363033] (-) TimerEvent: {}
+[4.463455] (-) TimerEvent: {}
+[4.563880] (-) TimerEvent: {}
+[4.664302] (-) TimerEvent: {}
+[4.764776] (-) TimerEvent: {}
+[4.865196] (-) TimerEvent: {}
+[4.965600] (-) TimerEvent: {}
+[5.066024] (-) TimerEvent: {}
+[5.166457] (-) TimerEvent: {}
+[5.266823] (-) TimerEvent: {}
+[5.367210] (-) TimerEvent: {}
+[5.467575] (-) TimerEvent: {}
+[5.567922] (-) TimerEvent: {}
+[5.668299] (-) TimerEvent: {}
+[5.768681] (-) TimerEvent: {}
+[5.869026] (-) TimerEvent: {}
+[5.887197] (cnn_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/sort_dataset_exe.dir/build.make:63: CMakeFiles/sort_dataset_exe.dir/src/sort_dataset_code.cpp.o] Error 1\n'}
+[5.887654] (cnn_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/sort_dataset_exe.dir/all] Error 2\n'}
+[5.887838] (cnn_pkg) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[5.969186] (-) TimerEvent: {}
+[6.069610] (-) TimerEvent: {}
+[6.170046] (-) TimerEvent: {}
+[6.270509] (-) TimerEvent: {}
+[6.370878] (-) TimerEvent: {}
+[6.471239] (-) TimerEvent: {}
+[6.571592] (-) TimerEvent: {}
+[6.671915] (-) TimerEvent: {}
+[6.772282] (-) TimerEvent: {}
+[6.872650] (-) TimerEvent: {}
+[6.973037] (-) TimerEvent: {}
+[7.073375] (-) TimerEvent: {}
+[7.173757] (-) TimerEvent: {}
+[7.274101] (-) TimerEvent: {}
+[7.374445] (-) TimerEvent: {}
+[7.474813] (-) TimerEvent: {}
+[7.575188] (-) TimerEvent: {}
+[7.675554] (-) TimerEvent: {}
+[7.690573] (cnn_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable get_aruco_exe\x1b[0m\n'}
+[7.775678] (-) TimerEvent: {}
+[7.876121] (-) TimerEvent: {}
+[7.976462] (-) TimerEvent: {}
+[8.076830] (-) TimerEvent: {}
+[8.176076] (cnn_pkg) StdoutLine: {'line': b'[ 90%] Built target get_aruco_exe\n'}
+[8.176955] (-) TimerEvent: {}
+[8.177436] (cnn_pkg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[8.179795] (cnn_pkg) CommandEnded: {'returncode': 2}
+[8.238370] (cnn_pkg) JobEnded: {'identifier': 'cnn_pkg', 'rc': 2}
+[8.249131] (-) EventReactorShutdown: {}

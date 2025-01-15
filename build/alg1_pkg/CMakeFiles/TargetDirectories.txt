@@ -1,0 +1,10 @@
+/home/jorge/capture_ws/build/alg1_pkg/CMakeFiles/install/strip.dir
+/home/jorge/capture_ws/build/alg1_pkg/CMakeFiles/install.dir
+/home/jorge/capture_ws/build/alg1_pkg/CMakeFiles/list_install_components.dir
+/home/jorge/capture_ws/build/alg1_pkg/CMakeFiles/rebuild_cache.dir
+/home/jorge/capture_ws/build/alg1_pkg/CMakeFiles/edit_cache.dir
+/home/jorge/capture_ws/build/alg1_pkg/CMakeFiles/test.dir
+/home/jorge/capture_ws/build/alg1_pkg/CMakeFiles/alg1_exe.dir
+/home/jorge/capture_ws/build/alg1_pkg/CMakeFiles/install/local.dir
+/home/jorge/capture_ws/build/alg1_pkg/CMakeFiles/alg1_pkg_uninstall.dir
+/home/jorge/capture_ws/build/alg1_pkg/CMakeFiles/uninstall.dir

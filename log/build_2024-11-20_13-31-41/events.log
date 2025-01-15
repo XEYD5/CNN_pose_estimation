@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000295] (-) JobUnselected: {'identifier': 'alg1_pkg'}
+[0.000341] (-) JobUnselected: {'identifier': 'cnn_pkg'}
+[0.000374] (-) JobUnselected: {'identifier': 'dnn_pkg'}
+[0.000402] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.000432] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.000460] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.000486] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.000515] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.000543] (-) EventReactorShutdown: {}

@@ -1,0 +1,14 @@
+/home/jorge/capture_ws/build/cnn_pkg/CMakeFiles/install/strip.dir
+/home/jorge/capture_ws/build/cnn_pkg/CMakeFiles/cnn_pkg_uninstall.dir
+/home/jorge/capture_ws/build/cnn_pkg/CMakeFiles/get_frames_exe.dir
+/home/jorge/capture_ws/build/cnn_pkg/CMakeFiles/get_frames2_exe.dir
+/home/jorge/capture_ws/build/cnn_pkg/CMakeFiles/list_install_components.dir
+/home/jorge/capture_ws/build/cnn_pkg/CMakeFiles/install.dir
+/home/jorge/capture_ws/build/cnn_pkg/CMakeFiles/send_frames_exe.dir
+/home/jorge/capture_ws/build/cnn_pkg/CMakeFiles/get_aruco_exe.dir
+/home/jorge/capture_ws/build/cnn_pkg/CMakeFiles/sort_dataset_exe.dir
+/home/jorge/capture_ws/build/cnn_pkg/CMakeFiles/uninstall.dir
+/home/jorge/capture_ws/build/cnn_pkg/CMakeFiles/test.dir
+/home/jorge/capture_ws/build/cnn_pkg/CMakeFiles/rebuild_cache.dir
+/home/jorge/capture_ws/build/cnn_pkg/CMakeFiles/edit_cache.dir
+/home/jorge/capture_ws/build/cnn_pkg/CMakeFiles/install/local.dir

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+
+  <!-- Info -->
+  <name>cnn_pkg</name>
+  <version>1.0.0</version>
+  <description>Your package description</description>
+  <maintainer email="jjb.ferreira@campus.fct.unl.pt">Jorge P. Ferreira</maintainer>
+  <license>Apache License 2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Build dependencies -->
+  <build_depend>rclcpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>librealsense2</build_depend>
+  <build_depend>ros2_aruco_interfaces</build_depend>
+
+  <!-- Run dependencies -->
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>librealsense2</exec_depend>
+  <exec_depend>ros2_aruco_interfaces</exec_depend>
+
+  <!-- Exported packages -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

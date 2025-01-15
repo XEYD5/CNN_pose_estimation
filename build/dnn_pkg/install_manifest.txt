@@ -1,0 +1,16 @@
+/home/jorge/capture_ws/install/dnn_pkg/lib/dnn_pkg/dnn_exe
+/home/jorge/capture_ws/install/dnn_pkg/share/ament_index/resource_index/package_run_dependencies/dnn_pkg
+/home/jorge/capture_ws/install/dnn_pkg/share/ament_index/resource_index/parent_prefix_path/dnn_pkg
+/home/jorge/capture_ws/install/dnn_pkg/share/dnn_pkg/environment/ament_prefix_path.sh
+/home/jorge/capture_ws/install/dnn_pkg/share/dnn_pkg/environment/ament_prefix_path.dsv
+/home/jorge/capture_ws/install/dnn_pkg/share/dnn_pkg/environment/path.sh
+/home/jorge/capture_ws/install/dnn_pkg/share/dnn_pkg/environment/path.dsv
+/home/jorge/capture_ws/install/dnn_pkg/share/dnn_pkg/local_setup.bash
+/home/jorge/capture_ws/install/dnn_pkg/share/dnn_pkg/local_setup.sh
+/home/jorge/capture_ws/install/dnn_pkg/share/dnn_pkg/local_setup.zsh
+/home/jorge/capture_ws/install/dnn_pkg/share/dnn_pkg/local_setup.dsv
+/home/jorge/capture_ws/install/dnn_pkg/share/dnn_pkg/package.dsv
+/home/jorge/capture_ws/install/dnn_pkg/share/ament_index/resource_index/packages/dnn_pkg
+/home/jorge/capture_ws/install/dnn_pkg/share/dnn_pkg/cmake/dnn_pkgConfig.cmake
+/home/jorge/capture_ws/install/dnn_pkg/share/dnn_pkg/cmake/dnn_pkgConfig-version.cmake
+/home/jorge/capture_ws/install/dnn_pkg/share/dnn_pkg/package.xml

@@ -1,0 +1,28 @@
+[0.018s] Invoking command in '/home/jorge/capture_ws/build/cnn_pkg': CMAKE_PREFIX_PATH=/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy /usr/bin/cmake --build /home/jorge/capture_ws/build/cnn_pkg -- -j8 -l8
+[0.081s] [35m[1mScanning dependencies of target get_aruco_exe[0m
+[0.081s] [35m[1mScanning dependencies of target get_frames_exe[0m
+[0.083s] [35m[1mScanning dependencies of target send_frames_exe[0m
+[0.087s] [35m[1mScanning dependencies of target sort_dataset_exe[0m
+[0.112s] [ 20%] Built target get_frames2_exe
+[0.137s] [ 30%] [32mBuilding CXX object CMakeFiles/get_frames_exe.dir/src/get_frames_code.cpp.o[0m
+[0.138s] [ 40%] [32mBuilding CXX object CMakeFiles/get_aruco_exe.dir/src/get_aruco_code.cpp.o[0m
+[0.148s] [ 50%] [32mBuilding CXX object CMakeFiles/send_frames_exe.dir/src/send_frames_code.cpp.o[0m
+[0.155s] [ 60%] [32mBuilding CXX object CMakeFiles/sort_dataset_exe.dir/src/sort_dataset_code.cpp.o[0m
+[3.082s] [01m[K/home/jorge/capture_ws/src/cnn_pkg/src/get_aruco_code.cpp:[m[K In member function ‘[01m[Kvoid PrintArucoOutputNode::arucoOutputCallback(ros2_aruco_interfaces::msg::ArucoMarkers_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.082s] [01m[K/home/jorge/capture_ws/src/cnn_pkg/src/get_aruco_code.cpp:79:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[3.082s]    79 |                 class_yaw = "F"
+[3.082s]       |                                [01;31m[K^[m[K
+[3.082s]       |                                [32m[K;[m[K
+[3.083s]    80 |             [32m[K}[m[K
+[3.083s]       |             [32m[K~[m[K                   
+[4.867s] make[2]: *** [CMakeFiles/get_aruco_exe.dir/build.make:63: CMakeFiles/get_aruco_exe.dir/src/get_aruco_code.cpp.o] Error 1
+[4.867s] make[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/get_aruco_exe.dir/all] Error 2
+[4.868s] make[1]: *** Waiting for unfinished jobs....
+[7.896s] [ 70%] [32m[1mLinking CXX executable send_frames_exe[0m
+[8.702s] [ 70%] Built target send_frames_exe
+[8.938s] [ 80%] [32m[1mLinking CXX executable get_frames_exe[0m
+[9.742s] [ 80%] Built target get_frames_exe
+[10.229s] [ 90%] [32m[1mLinking CXX executable sort_dataset_exe[0m
+[11.042s] [ 90%] Built target sort_dataset_exe
+[11.043s] make: *** [Makefile:141: all] Error 2
+[11.046s] Invoked command in '/home/jorge/capture_ws/build/cnn_pkg' returned '2': CMAKE_PREFIX_PATH=/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy /usr/bin/cmake --build /home/jorge/capture_ws/build/cnn_pkg -- -j8 -l8

@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target get_frames2_exe[0m
+[ 20%] Built target get_aruco_exe
+[ 40%] Built target sort_dataset_exe
+[ 60%] Built target get_frames_exe
+[ 80%] Built target send_frames_exe
+[ 90%] [32mBuilding CXX object CMakeFiles/get_frames2_exe.dir/src/get_frames_code2.cpp.o[0m
+[100%] [32m[1mLinking CXX executable get_frames2_exe[0m
+[100%] Built target get_frames2_exe
+-- Install configuration: ""
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/get_frames_exe
+-- Installing: /home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/get_frames2_exe
+-- Set runtime path of "/home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/get_frames2_exe" to ""
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/send_frames_exe
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/get_aruco_exe
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/lib/cnn_pkg/sort_dataset_exe
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/ament_index/resource_index/package_run_dependencies/cnn_pkg
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/ament_index/resource_index/parent_prefix_path/cnn_pkg
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/environment/path.sh
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/environment/path.dsv
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/local_setup.bash
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/local_setup.sh
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/local_setup.zsh
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/local_setup.dsv
+-- Installing: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/package.dsv
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/ament_index/resource_index/packages/cnn_pkg
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/cmake/cnn_pkgConfig.cmake
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/cmake/cnn_pkgConfig-version.cmake
+-- Up-to-date: /home/jorge/capture_ws/install/cnn_pkg/share/cnn_pkg/package.xml

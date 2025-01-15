@@ -1,0 +1,23 @@
+[0.020s] Invoking command in '/home/jorge/capture_ws/build/cnn_pkg': CMAKE_PREFIX_PATH=/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy /usr/bin/cmake --build /home/jorge/capture_ws/build/cnn_pkg -- -j8 -l8
+[0.076s] [35m[1mScanning dependencies of target sort_dataset_exe[0m
+[0.100s] [ 20%] Built target get_aruco_exe
+[0.108s] [ 40%] Built target get_frames2_exe
+[0.115s] [ 60%] Built target get_frames_exe
+[0.119s] [ 80%] Built target send_frames_exe
+[0.124s] [ 90%] [32mBuilding CXX object CMakeFiles/sort_dataset_exe.dir/src/sort_dataset_code.cpp.o[0m
+[3.182s] [01m[K/home/jorge/capture_ws/src/cnn_pkg/src/sort_dataset_code.cpp:[m[K In function ‘[01m[Kstd::string getFolder(std::string&)[m[K’:
+[3.182s] [01m[K/home/jorge/capture_ws/src/cnn_pkg/src/sort_dataset_code.cpp:35:21:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K(& class_label)->std::__cxx11::basic_string<char>::operator=(((const char*)"N"))[m[K’ from ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ to ‘[01m[Kbool[m[K’
+[3.182s]    35 |     if ([01;31m[Kclass_label = "N"[m[K) {
+[3.182s]       |         [01;31m[K~~~~~~~~~~~~^~~~~[m[K
+[3.183s]       |                     [01;31m[K|[m[K
+[3.183s]       |                     [01;31m[Kstd::__cxx11::basic_string<char>[m[K
+[3.183s] [01m[K/home/jorge/capture_ws/src/cnn_pkg/src/sort_dataset_code.cpp:36:65:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[3.183s]    36 |         return "/home/jorge/Desktop/dataset_ready/aruco_failed/"
+[3.183s]       |                                                                 [01;31m[K^[m[K
+[3.183s]       |                                                                 [32m[K;[m[K
+[3.183s]    37 |     [32m[K}[m[K
+[3.183s]       |     [32m[K~[m[K                                                            
+[5.699s] make[2]: *** [CMakeFiles/sort_dataset_exe.dir/build.make:63: CMakeFiles/sort_dataset_exe.dir/src/sort_dataset_code.cpp.o] Error 1
+[5.700s] make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/sort_dataset_exe.dir/all] Error 2
+[5.701s] make: *** [Makefile:141: all] Error 2
+[5.711s] Invoked command in '/home/jorge/capture_ws/build/cnn_pkg' returned '2': CMAKE_PREFIX_PATH=/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy /usr/bin/cmake --build /home/jorge/capture_ws/build/cnn_pkg -- -j8 -l8

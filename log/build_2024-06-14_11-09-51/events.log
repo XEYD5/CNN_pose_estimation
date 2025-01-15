@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000502] (-) JobUnselected: {'identifier': 'alg1_pkg'}
+[0.000716] (-) JobUnselected: {'identifier': 'dnn_pkg'}
+[0.000989] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.001079] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.001159] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.001237] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.001314] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.001447] (cnn_pkg) JobQueued: {'identifier': 'cnn_pkg', 'dependencies': OrderedDict([('ros2_aruco_interfaces', '/home/jorge/capture_ws/install/ros2_aruco_interfaces')])}
+[0.001531] (cnn_pkg) JobStarted: {'identifier': 'cnn_pkg'}
+[0.018046] (cnn_pkg) JobProgress: {'identifier': 'cnn_pkg', 'progress': 'cmake'}
+[0.018916] (cnn_pkg) JobProgress: {'identifier': 'cnn_pkg', 'progress': 'build'}
+[0.019950] (cnn_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jorge/capture_ws/build/cnn_pkg', '--', '-j8', '-l8'], 'cwd': '/home/jorge/capture_ws/build/cnn_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jorge'), ('LC_TIME', 'pt_PT.UTF-8'), ('SSH_AGENT_PID', '1206'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib:/home/jorge/capture_ws/install/realsense2_camera/lib:/home/jorge/capture_ws/install/realsense2_camera_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jorge'), ('OLDPWD', '/home/jorge'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('MANAGERPID', '1020'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jorge/capture_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jorge'), ('JOURNAL_STREAM', '8:37699'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jorge'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jorge/.local/bin:/home/jorge/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/capturePC:@/tmp/.ICE-unix/1244,unix/capturePC:/tmp/.ICE-unix/1244'), ('INVOCATION_ID', '5b9f0be96ec34cbd9868017ec71bfc53'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1041439c_bbc6_4074_8088_90cf47f743cb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/ros2_aruco:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jorge/capture_ws/build/cnn_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jorge/capture_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages:/home/jorge/capture_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/jorge/capture_ws/install/realsense2_camera_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/usr/local/lib/python3.8/dist-packages/tensorflow/models/research'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jorge/capture_ws/install/ros2_aruco_interfaces:/home/jorge/capture_ws/install/cnn_pkg:/home/jorge/capture_ws/install/realsense2_description:/home/jorge/capture_ws/install/realsense2_camera:/home/jorge/capture_ws/install/realsense2_camera_msgs:/home/jorge/capture_ws/install/dnn_pkg:/home/jorge/capture_ws/install/alg1_pkg:/home/jorge/capture_ws/install/ros2_aruco:/opt/ros/foxy')]), 'shell': False}
+[0.069778] (cnn_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.099199] (cnn_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099643] (-) TimerEvent: {}
+[0.199899] (-) TimerEvent: {}
+[0.300208] (-) TimerEvent: {}
+[0.400534] (-) TimerEvent: {}
+[0.422236] (cnn_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.468913] (cnn_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.472831] (cnn_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.500673] (-) TimerEvent: {}
+[0.601022] (-) TimerEvent: {}
+[0.622428] (cnn_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.678628] (cnn_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.680526] (cnn_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.701169] (-) TimerEvent: {}
+[0.801482] (-) TimerEvent: {}
+[0.872929] (cnn_pkg) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[0.901611] (-) TimerEvent: {}
+[1.001917] (-) TimerEvent: {}
+[1.023654] (cnn_pkg) StdoutLine: {'line': b'-- Found ros2_aruco_interfaces: 0.1.0 (/home/jorge/capture_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake)\n'}
+[1.102051] (-) TimerEvent: {}
+[1.194469] (cnn_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.202191] (-) TimerEvent: {}
+[1.302454] (-) TimerEvent: {}
+[1.329881] (cnn_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.333407] (cnn_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/jorge/capture_ws/build/cnn_pkg\n'}
+[1.383959] (cnn_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cnn_exe\x1b[0m\n'}
+[1.396869] (cnn_pkg) StdoutLine: {'line': b'[ 20%] Built target get_aruco_exe\n'}
+[1.397567] (cnn_pkg) StdoutLine: {'line': b'[ 40%] Built target send_frames_exe\n'}
+[1.402586] (-) TimerEvent: {}
+[1.403801] (cnn_pkg) StdoutLine: {'line': b'[ 60%] Built target get_frames_exe\n'}
+[1.411256] (cnn_pkg) StdoutLine: {'line': b'[ 80%] Built target sort_dataset_exe\n'}
+[1.502727] (-) TimerEvent: {}
+[1.558900] (cnn_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/cnn_exe.dir/src/cnn_code.cpp.o\x1b[0m\n'}
+[1.602865] (-) TimerEvent: {}
+[1.703144] (-) TimerEvent: {}
+[1.803525] (-) TimerEvent: {}
+[1.903896] (-) TimerEvent: {}
+[2.004278] (-) TimerEvent: {}
+[2.104627] (-) TimerEvent: {}
+[2.204977] (-) TimerEvent: {}
+[2.305369] (-) TimerEvent: {}
+[2.405721] (-) TimerEvent: {}
+[2.506048] (-) TimerEvent: {}
+[2.606365] (-) TimerEvent: {}
+[2.706676] (-) TimerEvent: {}
+[2.806985] (-) TimerEvent: {}
+[2.907294] (-) TimerEvent: {}
+[3.007616] (-) TimerEvent: {}
+[3.107912] (-) TimerEvent: {}
+[3.208244] (-) TimerEvent: {}
+[3.308541] (-) TimerEvent: {}
+[3.408921] (-) TimerEvent: {}
+[3.509241] (-) TimerEvent: {}
+[3.609548] (-) TimerEvent: {}
+[3.709925] (-) TimerEvent: {}
+[3.810306] (-) TimerEvent: {}
+[3.910693] (-) TimerEvent: {}
+[4.011047] (-) TimerEvent: {}
+[4.111483] (-) TimerEvent: {}
+[4.211803] (-) TimerEvent: {}
+[4.312151] (-) TimerEvent: {}
+[4.412505] (-) TimerEvent: {}
+[4.512847] (-) TimerEvent: {}
+[4.613209] (-) TimerEvent: {}
+[4.713602] (-) TimerEvent: {}
+[4.814003] (-) TimerEvent: {}
+[4.914371] (-) TimerEvent: {}
+[5.014743] (-) TimerEvent: {}
+[5.115132] (-) TimerEvent: {}
+[5.215488] (-) TimerEvent: {}
+[5.315788] (-) TimerEvent: {}
+[5.416141] (-) TimerEvent: {}
+[5.516492] (-) TimerEvent: {}
+[5.616840] (-) TimerEvent: {}
+[5.717213] (-) TimerEvent: {}
+[5.817574] (-) TimerEvent: {}
+[5.917976] (-) TimerEvent: {}
+[6.028284] (-) TimerEvent: {}
+[6.128676] (-) TimerEvent: {}
+[6.229062] (-) TimerEvent: {}
+[6.329416] (-) TimerEvent: {}
+[6.429774] (-) TimerEvent: {}
+[6.530143] (-) TimerEvent: {}
+[6.630556] (-) TimerEvent: {}
+[6.730912] (-) TimerEvent: {}
+[6.831265] (-) TimerEvent: {}
+[6.931938] (-) TimerEvent: {}
+[7.032302] (-) TimerEvent: {}
+[7.132665] (-) TimerEvent: {}
+[7.233023] (-) TimerEvent: {}
+[7.333382] (-) TimerEvent: {}
+[7.433740] (-) TimerEvent: {}
+[7.534099] (-) TimerEvent: {}
+[7.634460] (-) TimerEvent: {}
+[7.734843] (-) TimerEvent: {}
+[7.835209] (-) TimerEvent: {}
+[7.935572] (-) TimerEvent: {}
+[8.035935] (-) TimerEvent: {}
+[8.136305] (-) TimerEvent: {}
+[8.236684] (-) TimerEvent: {}
+[8.337058] (-) TimerEvent: {}
+[8.437417] (-) TimerEvent: {}
+[8.537775] (-) TimerEvent: {}
+[8.638141] (-) TimerEvent: {}
+[8.738517] (-) TimerEvent: {}
+[8.838887] (-) TimerEvent: {}
+[8.939246] (-) TimerEvent: {}
+[9.039607] (-) TimerEvent: {}
+[9.139968] (-) TimerEvent: {}
+[9.240369] (-) TimerEvent: {}
+[9.340737] (-) TimerEvent: {}
+[9.441086] (-) TimerEvent: {}
+[9.541466] (-) TimerEvent: {}
+[9.641851] (-) TimerEvent: {}
+[9.742244] (-) TimerEvent: {}
+[9.842713] (-) TimerEvent: {}
+[9.860978] (cnn_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cnn_exe\x1b[0m\n'}
+[9.942910] (-) TimerEvent: {}
+[10.043613] (-) TimerEvent: {}
+[10.144355] (-) TimerEvent: {}
+[10.237434] (cnn_pkg) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/cnn_exe.dir/src/cnn_code.cpp.o: in function `tsl::core::RefCounted::~RefCounted()':\n"}
+[10.237889] (cnn_pkg) StderrLine: {'line': b"cnn_code.cpp:(.text._ZN3tsl4core10RefCountedD2Ev[_ZN3tsl4core10RefCountedD5Ev]+0xf5): undefined reference to `tsl::internal::LogMessageFatal::LogMessageFatal(char const*, int)'\n"}
+[10.238184] (cnn_pkg) StderrLine: {'line': b"/usr/bin/ld: cnn_code.cpp:(.text._ZN3tsl4core10RefCountedD2Ev[_ZN3tsl4core10RefCountedD5Ev]+0x11d): undefined reference to `tsl::internal::LogMessageFatal::~LogMessageFatal()'\n"}
+[10.238368] (cnn_pkg) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/cnn_exe.dir/src/cnn_code.cpp.o: in function `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* tsl::internal::MakeCheckOpString<long, int>(long const&, int const&, char const*)':\n"}
+[10.238510] (cnn_pkg) StderrLine: {'line': b"cnn_code.cpp:(.text._ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc[_ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc]+0x37): undefined reference to `tsl::internal::CheckOpMessageBuilder::CheckOpMessageBuilder(char const*)'\n"}
+[10.238653] (cnn_pkg) StderrLine: {'line': b"/usr/bin/ld: cnn_code.cpp:(.text._ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc[_ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc]+0x61): undefined reference to `tsl::internal::CheckOpMessageBuilder::ForVar2()'\n"}
+[10.238794] (cnn_pkg) StderrLine: {'line': b"/usr/bin/ld: cnn_code.cpp:(.text._ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc[_ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc]+0x7f): undefined reference to `tsl::internal::CheckOpMessageBuilder::NewString[abi:cxx11]()'\n"}
+[10.238932] (cnn_pkg) StderrLine: {'line': b"/usr/bin/ld: cnn_code.cpp:(.text._ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc[_ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc]+0x8f): undefined reference to `tsl::internal::CheckOpMessageBuilder::~CheckOpMessageBuilder()'\n"}
+[10.239070] (cnn_pkg) StderrLine: {'line': b"/usr/bin/ld: cnn_code.cpp:(.text._ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc[_ZN3tsl8internal17MakeCheckOpStringIliEEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKT_RKT0_PKc]+0xb6): undefined reference to `tsl::internal::CheckOpMessageBuilder::~CheckOpMessageBuilder()'\n"}
+[10.243982] (cnn_pkg) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[10.244406] (-) TimerEvent: {}
+[10.246425] (cnn_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/cnn_exe.dir/build.make:217: cnn_exe] Error 1\n'}
+[10.246901] (cnn_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:248: CMakeFiles/cnn_exe.dir/all] Error 2\n'}
+[10.247232] (cnn_pkg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[10.249633] (cnn_pkg) CommandEnded: {'returncode': 2}
+[10.311103] (cnn_pkg) JobEnded: {'identifier': 'cnn_pkg', 'rc': 2}
+[10.322173] (-) EventReactorShutdown: {}
