@@ -47,16 +47,16 @@ The CNN has been tested extensively, showing robustness to various distortions.
 
 
 
-  lvl    lvl    lvl    er %
-| dark | blur | qual | rslt |
-|  10  |  10  |  10  |   1  |
-|  90  |  10  |  10  |  59  |
-|  10  |  90  |  10  |  16  |
-|  90  |  90  |  10  |  59  |
-|  10  |  10  |  90  |   2  |
-|  90  |  10  |  90  |  59  |
-|  10  |  90  |  90  |  17  |
-|  90  |  90  |  90  |  59  |
+-  lvl    lvl    lvl    er %
+-| dark | blur | qual | rslt |
+-|  10  |  10  |  10  |   1  |
+-|  90  |  10  |  10  |  59  |
+-|  10  |  90  |  10  |  16  |
+-|  90  |  90  |  10  |  59  |
+-|  10  |  10  |  90  |   2  |
+-|  90  |  10  |  90  |  59  |
+-|  10  |  90  |  90  |  17  |
+-|  90  |  90  |  90  |  59  |
 
 ## Future Work
 - **Improving Estimations**: Current pose estimations are very basic, just to prove the concept.
