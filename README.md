@@ -16,7 +16,6 @@ Future work developments include improving result resolution and to incorporate 
 - **src/**: Contains the source code for the project.
 - **datasets/**: Includes various datasets used for training and testing the CNN under different distortions.
 - **models/**: Pre-trained models and scripts for training new models.
-- **docs/**: Documentation and reports related to the project.
 
 ## Installation
 To set up the project, clone this repository and initialize the ROS workspace:
