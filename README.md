@@ -44,6 +44,9 @@ The CNN has been tested extensively, showing robustness to various distortions.
    - even severe quality reduction doesnt affect the model
    - 0, 20, 50 % rises in error rate at 60, 70, 80 darkness
    - 0, 5, 10 % rises in error rate at level 7, 8, 9 blur
+
+
+
   lvl    lvl    lvl    er %
 | dark | blur | qual | rslt |
 |  10  |  10  |  10  |   1  |
